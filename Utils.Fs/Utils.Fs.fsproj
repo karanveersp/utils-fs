@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Authors>karanveersp</Authors>
+    <Company>karanveersp</Company>
+    <PackageDescription>Utility functions for Fsharp</PackageDescription>
+    <RepositoryUrl>https://github.com/karanveersp/utils-fs</RepositoryUrl>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="File.fs" />
+  </ItemGroup>
+
+</Project>
