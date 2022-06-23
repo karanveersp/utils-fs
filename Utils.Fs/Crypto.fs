@@ -19,10 +19,10 @@ module AES =
     let Concat (a: byte []) (b: byte []) : byte [] =
         let output = Array.zeroCreate<byte> (a.Length + b.Length)
 
-        for i in 0 .. a.Length do
+        for i in 0 .. (a.Length - 1) do
             output.[i] <- a.[i]
 
-        for j in 0 .. b.Length do
+        for j in 0 .. (b.Length - 1) do
             output.[a.Length + j] <- b.[j]
 
         output

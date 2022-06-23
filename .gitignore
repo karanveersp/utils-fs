@@ -2,3 +2,5 @@
 *obj/
 nuget.config
 .fake
+
+ionide*
