@@ -8,6 +8,7 @@
     <Company>karanveersp</Company>
     <PackageDescription>Utility functions for Fsharp</PackageDescription>
     <RepositoryUrl>https://github.com/karanveersp/utils-fs</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
     <EnablePackageValidation>true</EnablePackageValidation>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
