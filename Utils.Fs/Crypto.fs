@@ -1,5 +1,7 @@
 namespace Utils.Fs.Crypto
 
+/// This module is a translation to F# of the C# class available at:
+/// https://github.com/mervick/aes-everywhere/blob/master/net/src/aes256.cs
 module AES =
     open System
     open System.Security.Cryptography

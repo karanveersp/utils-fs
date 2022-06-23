@@ -1,15 +1,23 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <Title>FsUtilsLib</Title>
+    <PackageId>FsUtilsLibByKV</PackageId>
     <TargetFramework>net6.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <Authors>karanveersp</Authors>
     <Company>karanveersp</Company>
     <PackageDescription>Utility functions for Fsharp</PackageDescription>
     <RepositoryUrl>https://github.com/karanveersp/utils-fs</RepositoryUrl>
-    <Version>1.0.0</Version>
+    <EnablePackageValidation>true</EnablePackageValidation>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+    
+    <Version>1.1.0</Version>
+
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Crypto.fs" />
     <Compile Include="File.fs" />
+    <None Include="../README.md" Pack="true" PackagePath=""/>
   </ItemGroup>
 </Project>
