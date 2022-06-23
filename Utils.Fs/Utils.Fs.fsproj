@@ -11,7 +11,8 @@
     <EnablePackageValidation>true</EnablePackageValidation>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
-    
+    <PackageTags>utility;fsharp</PackageTags>
+
     <Version>1.1.0</Version>
 
   </PropertyGroup>
