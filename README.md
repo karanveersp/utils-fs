@@ -3,6 +3,8 @@
 A library of utility functions for file management, aes encryption/decryption
 and more.
 
+Nuget Link: https://www.nuget.org/packages/FsUtilsLibByKV
+
 Includes the following functions:
 
 - File
