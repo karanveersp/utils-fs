@@ -13,13 +13,13 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
     <PackageTags>utility;fsharp</PackageTags>
-
-    <Version>1.1.0</Version>
-
+    <Version>1.2.0</Version>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Extensions.fs" />
+    <Compile Include="Dict.fs" />
     <Compile Include="Crypto.fs" />
     <Compile Include="File.fs" />
-    <None Include="../README.md" Pack="true" PackagePath=""/>
+    <None Include="../README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 </Project>
